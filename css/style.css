@@ -1,0 +1,85 @@
+body {
+    background-image: url(../img/pattern.png);
+    background-attachment: fixed;
+
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+
+    color: #8d5151;
+    text-shadow: 1px 1px 2px black;
+}
+
+a {
+    transition: margin-left 0.25s, margin-top 0.25s, color 0.25s, border-bottom-color 0.25s;
+    text-decoration: none;
+
+    color: #006400;
+    border-bottom: 2px dotted #ff0000;
+
+    font-family: serif;
+    font-size: 1.5em;
+}
+
+a:hover {
+    margin-top: 1px;
+    margin-left: 3px;
+
+    color: #ff0000;
+    border-bottom-color: #006400;
+}
+
+table {
+    margin: 30px auto;
+
+    border-collapse: collapse;
+}
+
+td {
+    width: 33%;
+    height: 50px;
+
+    text-align: center;
+
+    border: 1px solid #808080;
+}
+
+caption {
+    color: #005212;
+
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main {
+    width: 90%;
+    height: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 25px;
+
+    text-align: center;
+
+    opacity: 0.8;
+    border-radius: 10px;
+    background-color: #ece0ca;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.table-single {
+    width: 75%;
+}
+
+.table-parent {
+    width: 90%;
+}
+
+.table-child {
+    width: 80%;
+}
+
+.h-200 {
+    height: 200px;
+}
