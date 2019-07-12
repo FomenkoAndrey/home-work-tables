@@ -11,24 +11,24 @@
 
     <div class="main">
 
-        <a href="index.html">Back</a><br><br> 
+        <p><a href="index.html">Back</a>, <a href="table1.html">Table1</a></p>
 
-        <table class="table-parent">
+        <table class="w-90">
             <caption>Родительская таблица</caption>
             <tr>
-                <td colspan="2">1-2</td>
-                <td>3</td>
+                <td class="w-40" colspan="2">1-2</td>
+                <td class="w-60">3 &mdash; Колонка шириной 60%</td>
             </tr>
             <tr>
-                <td>4<br>Все колонки шириной 33%</td>
+                <td class="w-28">4<br>Колонка шириной 28%</td>
                 <td colspan="2" rowspan="2">
-                    
+
                     <!-- начало вложенной таблицы -->
-                    <table class="table-child">
+                    <table class="w-80">
                         <caption>Вложенная таблица</caption>
                         <tr>
                             <td>1</td>
-                            <td rowspan="3">2-5-8<br>Все колонки шириной 33%</td>
+                            <td rowspan="3">2-5-8<br>Все колонки <br> шириной 33%</td>
                             <td rowspan="2" class="h-200">3-6<br>Высота 200рх</td>
                         </tr>
                         <tr>
@@ -38,11 +38,11 @@
                             <td>9</td>
                         </tr>
                     </table>
-                
+
                 </td>
             </tr>
             <tr>
-                <td>7</td>
+                <td class="w-28">7</td>
             </tr>
         </table>
 

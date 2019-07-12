@@ -1,4 +1,10 @@
+/* Оформление документа */
+* {
+    box-sizing: border-box;
+}
+
 body {
+    padding: 50px 0 0;
     background-image: url(../img/pattern.png);
     background-attachment: fixed;
 
@@ -31,8 +37,25 @@ a:hover {
     border-bottom-color: #006400;
 }
 
+
+.main {
+    width: 90%;
+    height: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    padding: 25px;
+
+    text-align: center;
+
+    opacity: 0.8;
+    border-radius: 10px;
+    background-color: #ece0ca;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Общее оформление таблицы */
 table {
-    margin: 30px auto;
+    margin: 50px auto;
 
     border-collapse: collapse;
 }
@@ -53,31 +76,29 @@ caption {
     font-style: italic;
 }
 
-.main {
+/* Специальные правила для уникальных размерностей таблиц и ячеек */
+.w-90 {
     width: 90%;
-    height: 80%;
-    min-height: 500px;
-    margin: 0 auto;
-    padding: 25px;
-
-    text-align: center;
-
-    opacity: 0.8;
-    border-radius: 10px;
-    background-color: #ece0ca;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.table-single {
+.w-80 {
+    width: 80%;
+}
+
+.w-75 {
     width: 75%;
 }
 
-.table-parent {
-    width: 90%;
+.w-60 {
+    width: 60%;
 }
 
-.table-child {
-    width: 80%;
+.w-40 {
+    width: 40%;
+}
+
+.w-28 {
+    width: 28%;
 }
 
 .h-200 {
